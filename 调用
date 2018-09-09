@@ -1,0 +1,30 @@
+PreviewFragment->PreviewSession.init->startLoadInfo(InfoType.StickerCategoryList)-> stickerHandler.startLoadCategoryList();->
+    stickerHandler->doStartLoadStickerCategoryListFromNetwork->
+    StickerManager->startLoadStickerCategoryList->
+
+    StickerManagerSAR->doStartLoadStickerCategoryListFromNetwork->
+    	postNotifyFinishLoadStickerCategoryInfos
+    	postNotifyFinishLoadStickerCategoryInfos
+    handleDefaultStickerCategory
+    	previewSession.setCurStickerCategory(categoryInfo);
+
+PreviewSession
+     startLoadSticker(stickerCategoryInfo.getStickerCategoryId());
+     startLoadSticker(String stickerCategoryId)
+stickerHandler.startLoadStickerList
+	onLoadStickerList
+
+if (firstLoad)
+    mWrapperContent.getListener().onStickerListLoaded(stickerCategoryId, loadResult);
+
+PreviewFragment 
+	onStickerListLoaded
+	addStickersMap
+	updateSelectSticker
+
+	9 10 11 12 1 2
+	6*6000
+	6*16800
+	3*16800
+
+	MVUProjectInfoImpl
