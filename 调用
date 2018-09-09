@@ -21,10 +21,3 @@ PreviewFragment
 	onStickerListLoaded
 	addStickersMap
 	updateSelectSticker
-
-	9 10 11 12 1 2
-	6*6000
-	6*16800
-	3*16800
-
-	MVUProjectInfoImpl
